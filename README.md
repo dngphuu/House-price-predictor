@@ -88,10 +88,3 @@ Q: I see an error loading the model or columns pickle files — how to debug?
 
 - If you modify the model or retrain, update `linear_regression_model.pkl` and `model_columns.pkl` accordingly.
 - Consider adding unit tests for `model.py` and a CI workflow for automatic checks.
-
-## License
-
-This project is provided as-is. See repository owner for licensing details.
-
-
-If you'd like, I can also add a short example script that demonstrates loading the model and printing `df.head()` correctly — tell me if you want that and I'll add it to the repo.
